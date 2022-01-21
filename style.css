@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'mochiy';
+    src: url(font/MochiyPopPOne-Regular.otf) format('opentype');
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(96, 186, 238);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 60px;
+}
+
+.fim {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho-menu-item {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    border: 10px solid rgb(96, 186, 238);
+}
+
+.cabecalho-menu-item:hover {
+    color: rgb(96, 186, 238);
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+
+.segundo {
+    border: 10px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(96, 186, 238);
+}
+
+.segundo:hover {
+    border: 10px solid rgba(35, 131, 187, 0.911);
+    border-radius: 20px;
+    background-color: rgba(35, 131, 187, 0.911);
+    color: white;
+}
+
+
+.conteudo {
+    margin-bottom: 48px;
+    padding-top: 70px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'mochiy';
+    font-size: 4em;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.conteudo-principal-escrito-final {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+footer {
+    color: white;
+    margin-top: 23vh;
+    text-align: center;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
